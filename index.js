@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { count } from "./utils.js";
-const {count} = require('.utils.js')
+import * as thing from './utils' // import everything from utils
+
 
 import fs from 'node:fs' //explicit saying fs is from internal node, not 3rd party installed package
 import _ from 'lodash' // 3rd party installed package
